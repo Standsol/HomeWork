@@ -10,5 +10,4 @@ void ShapeA::initialize(const int& _start_x, const int& _start_y, const int& _en
 void ShapeA::draw()
 {
 	drawShapeA(start_x, start_y, end_x, end_y, 1.0f, 0.0f, 0.0f);
-	//arroundCircle(mid_x, mid_y, 1.0f, 0.0f, 0.0f,window);
 }

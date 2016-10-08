@@ -80,8 +80,6 @@ void drawTriangle(const int& i0, const int& j0, const float& red, const float& g
 	drawLine(i0, j0, i0 + 50, j0, 0.0f, 0.0f, 0.0f);
 	drawLine(i0, j0, i0 + 25, j0 + 50, 0.0f, 0.0f, 0.0f);
 	drawLine(i0 + 25, j0 + 50, i0 + 50, j0, 0.0f, 0.0f, 0.0f);
-	/*arroundCircle(i0+25, j0 + 25, 1.0f, 0.0f, 0.0f, window);*/
-	//drawSquare_2(70, i0 - 10, j0 - 10, 0.0f, 0.0f, 1.0f, window);
 }
 void drawSquare(const int& edge, const int& i0, const int& j0, const float& red, const float& green, const float& blue)
 {

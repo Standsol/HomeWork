@@ -9,9 +9,6 @@ class Circle : public GeometricObject
 public:
 	int start_x, start_y;
 	int r;
-	/*int mid_x, mid_y;
-	int mid_r;
-	*/
 	Circle(const int& _start_x, const int& _start_y, const int& _r)
 	{
 		initialize(_start_x, _start_y, _r);

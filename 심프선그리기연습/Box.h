@@ -9,8 +9,6 @@ class Box : public GeometricObject
 public:
 	int start_x, start_y;
 	int edge;
-	/*int mid_x, mid_y;
-	int mid_r;*/
 
 	Box(const int& _edge, const int& _start_x, const int& _start_y) 
 	{
